@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <div className={"bg-white dark:bg-slate-800 text-slate-900 dark:text-white text-sm sm:text-2xl p-1 min-h-screen"}>
+        <React.StrictMode>
+            <App/>
+        </React.StrictMode>
+    </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
